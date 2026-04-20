@@ -75,7 +75,7 @@ if (rsvpForm) {
     // ── Option A: WhatsApp ──────────────────────────────────
     // Replace 94771234567 with the couple's WhatsApp number
     const msg = `RSVP 💌\nName: ${name}\nPhone: ${phone}\nGuests: ${guests}\nAttending: ${attending.value === 'yes' ? 'Joyfully Accepts' : 'Regretfully Declines'}`;
-    const waURL = `https://wa.me/94764467569?text=${encodeURIComponent(msg)}`;
+    const waURL = `https://wa.me/94785000848?text=${encodeURIComponent(msg)}`;
     window.open(waURL, '_blank');
 
     // ── Option B: Fetch to Formspree ─────────────────────────
